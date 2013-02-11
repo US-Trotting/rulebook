@@ -6,14 +6,27 @@
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+		<script>
+			$(function(){
+				var popuptext= '<p>Derek\'s completely basic popup, no options set.<p> Let\'s get' + " \"crazy\"";
+				$('#popupBasic').append(popuptext);
+			})
+		</script>
 	</head> 
 	<body>
+		
 		<div data-role="page">
+			
+			<!-- <div data-role="popup" >
+				
+			</div> -->
+			
 			<!-- Header -->
 			<div data-position="fixed" data-role="header">
 				<a class="ui-btn-left" data-icon="arrow-l" data-iconpos="notext" data-rel="back" data-role="button"></a>
-				<h1>&nbsp;</h1>
-				<a class="ui-btn-right" data-icon="home" data-iconpos="notext" data-role="button" href="/"></a>
+				<h1 id="popupBasic">&nbsp;</h1>
+				<a class="menu ui-btn-right" data-icon="grid" data-iconpos="notext" data-rel="popup" href="#popupBasic"></a>
+				<!-- <a class="ui-btn-right" data-icon="home" data-iconpos="notext" data-role="button" href="/"></a> -->
 			</div>
 			<!-- Content -->
 			<div data-role="content">

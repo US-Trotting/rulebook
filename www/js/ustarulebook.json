@@ -1,0 +1,14 @@
+[
+	{'no':'1', 'name':'MANDATE', 'template':'/1.html'},
+	{'no':'1.01', 'name':'General Provisions', 'template':'/1/01.html'},
+	{'no':'1.02', 'name':'Confilicting Rules', 'template':'/1/02.html'},
+	{'no':'1.03', 'name':'Denial of Membership - Racing Commision License Granted', 'template':'/1/03.html'},
+	{'no':'1.04', 'name':'Reprocity with Standardbred Canada', 'template':'/1/04.html'},
+	{'no':'1.05', 'name':'Universal Licensing/Fingerprints', 'template':'/1/05.html'},
+	{'no':'1.06', 'name':'Effective Date of Rules and Regulation', 'template':'/1/06.html'},
+	{'no':'2', 'name':'AUTHORITIES AND TERMS', 'template':'/2.html'},
+	{'no':'2.01', 'name':'Authorities and Terms', 'template':'/2/01.html'},
+	{'no':'3', 'name':'VIOLATIONS', 'template':'/3.html'},
+	{'no':'3.01', 'name':'Violations', 'template':'/3/01.html'},
+	{'no':'3.02', 'name':'Attempts to Violate any Rule or Regulation', 'template':'/3/02.html'}
+];

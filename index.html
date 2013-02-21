@@ -5,19 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/jquery.mobile.css" rel="stylesheet" />
 		<link href="css/ustarulebook.css" rel="stylesheet" />
-	</head> 
+	</head>
 	<body>
-		
 		<div data-role="page" id="index">
-			
 			<!-- Header -->
 			<div data-position="fixed" data-role="header">
 				<h1>USTA Rule Book</h1>
-				<div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
-					<a data-icon="search" data-iconpos="notext" data-role="button" href="/search.html"></a>
-				</div>
 			</div>
-			
 			<!-- Content -->
 			<div data-role="content">
 				<h3>RULES AND REGULATIONS OF THE UNITED STATES TROTTING ASSOCIATION</h3>
@@ -27,17 +21,19 @@
 					<li><a href="3.html">3. VIOLATIONS</a></li>
 				</ul>
 			</div>
-				
 			<!-- Footer -->
 			<div data-position="fixed" data-role="footer">
-				<h3>&copy; 2013 The United States Trotting Association</h3> 
+				<div data-role="navbar">
+					<ul>
+						<li><a data-icon="search" href="search.html">Search</a></li>
+					</ul>
+				</div>
+				<h6>&copy; 2013 The U.S. Trotting Association</h6>
 			</div>
-			
 		</div>
-		
 		<script src="phonegap.js"></script>
 		<script src="js/jquery.min.js"></script>
+		<script src="js/ustarulebook.js"></script>
 		<script src="js/jquery.mobile.min.js"></script>
-	
 	</body>
 </html>

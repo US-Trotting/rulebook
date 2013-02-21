@@ -1,13 +1,13 @@
-<div data-role="page" id="rule102">
+<div data-role="page" id="rule105">
 	<!-- Header -->
 	<div data-position="fixed" data-role="header">
 		<h1>USTA Rule Book</h1>
 	</div>
 	<!-- Content -->
 	<div data-role="content">
-		<h3>1.02 <u>Conflicting Rules.</u></h3>
+		<h3>1.05 <u>Universal Licensing/Fingerprints.</u></h3>
 		<p>
-			In the event there is a conflict between the USTA and the rules or conditions promulgated by any of its members, the USTA rules shall govern.
+			<strong>USTA </strong>shall recognize a universal license and fingerprint application adopted by the Association of Racing Commissioners International and the individual state and provincial racing authorities for all owners.
 		</p>
 	</div>
 	<!-- Footer -->

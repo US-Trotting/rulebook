@@ -1,13 +1,13 @@
-<div data-role="page" id="rule102">
+<div data-role="page" id="rule106">
 	<!-- Header -->
 	<div data-position="fixed" data-role="header">
 		<h1>USTA Rule Book</h1>
 	</div>
 	<!-- Content -->
 	<div data-role="content">
-		<h3>1.02 <u>Conflicting Rules.</u></h3>
+		<h3>1.06 <u>Effective Date of Rules and Regulation.</u></h3>
 		<p>
-			In the event there is a conflict between the USTA and the rules or conditions promulgated by any of its members, the USTA rules shall govern.
+			<strong>Unless otherwise indicated, these Rules and Regulations become effective as of March 5, 2013. Rules and Regulations subsequently adopted shall become effective as provided in 1.01 unless otherwise specified.</strong>
 		</p>
 	</div>
 	<!-- Footer -->

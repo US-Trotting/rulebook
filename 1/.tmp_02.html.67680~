@@ -7,7 +7,7 @@
 	<div data-role="content">
 		<h3>1.02 <u>Conflicting Rules.</u></h3>
 		<p>
-			In the event there is a conflict between the USTA and the rules or conditions promulgated by any of its members, the USTA rules shall govern.
+			In the event there is a conflict between the <strong>USTA</strong> <s>rules of the United States Trotting </s> Association and the rules or conditions promulgated by any of its members, the <strong>USTA</strong> rules <s>of the United States Trotting Association</s> shall govern.
 		</p>
 	</div>
 	<!-- Footer -->
@@ -19,6 +19,6 @@
 				<li><a data-icon="search" href="../search.html">Search</a></li>
 			</ul>
 		</div>
-		<h6>&copy; 2013 The U.S. Trotting Association</h6>
+		<h6>&copy; 2013 The United States Trotting Association</h6>
 	</div>
 </div>

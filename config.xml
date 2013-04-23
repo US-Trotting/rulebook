@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id = "com.ustrotting.rulebook"
-	version = "0.0.6">
+	version = "1.0.6">
 	
 	<name>The U.S. Trotting Association Rule Book</name>
 	

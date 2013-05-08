@@ -11,13 +11,13 @@ var app = {
 $('div.ui-page')
 	.live('swipeleft', function(){
 		var nextpage = $( this ).jqmData( "next" );
-		if ( nextpage.length > 0 ){
+		if ( nextpage ){
 			$.mobile.changePage( nextpage + '.html' )
 		}
 	})
 	.live('swiperight', function(){
 		var prevpage = $( this ).jqmData( "prev" );
-		if ( prevpage.length > 0 ){
+		if ( prevpage ){
 			$.mobile.changePage( prevpage + '.html' )
 		}
 	});

@@ -1,5 +1,7 @@
 var app = {
 	initialize: function() {
+		var self = this;
+		
 		$.mobile.allowCrossDomainPages = true;
 		$.mobile.defaultPageTransition = "none"; 
 		$.mobile.phonegapNavigationEnabled = true; 

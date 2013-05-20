@@ -3,7 +3,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id = "com.ustrotting.rulebook"
 	version = "1.0.7"
-	versionCode = "9">
+	versionCode = "217">
 	
 	<name>The U.S. Trotting Association Rule Book</name>
 	

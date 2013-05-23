@@ -3,7 +3,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id = "com.ustrotting.rulebook"
 	version = "1.0.7"
-	versionCode = "217">
+	versionCode = "218">
 	
 	<name>The U.S. Trotting Association Rule Book</name>
 	
@@ -13,12 +13,10 @@
 		U.S. Trotting Mobile Developer
 	</author>
 	
-	<preference name="phonegap-version" value="2.3.0" />
+	<preference name="phonegap-version" value="2.5.0" />
 	<preference name="orientation" value="default" />
 	<preference name="target-device" value="universal" />
 	<preference name="permissions" value="none"/>
-	
-	<preference name="android-minSdkVersion" value="10" />
 	
 	<icon src="icon.png" />
 	<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />

@@ -10,16 +10,22 @@ var app = {
 	}
 };
 
-$('div.ui-page')
-	.live('swipeleft', function(){
-		var nextpage = $( this ).jqmData( "next" );
-		if ( nextpage ){
-			$.mobile.changePage( nextpage + '.html' )
-		}
-	})
-	.live('swiperight', function(){
-		var prevpage = $( this ).jqmData( "prev" );
-		if ( prevpage ){
-			$.mobile.changePage( prevpage + '.html' )
-		}
-	});
+$(document).on("pageinit", "[data-role='page'].page", function(){
+	var page = "#" + $( this ).attr( "id" ),
+		// Get the filename of the next page that we stored in the data-next attribute
+		next = $( this ).jqmData( "next" ),
+		// Get the filename of the previous page that we stored in the data-prev attribute
+		prev = $( this ).jqmData( "prev" );
+
+		if(next){
+			$(page).on("swipeleft", function(){
+				$.mobile.changePage( next + '.html', {transition: "slide"})
+			});
+		};
+
+		if(prev){
+			$(page).on("swiperight", function(){
+				$.mobile.changePage( prev + '.html', {transition: "slide", reverse: true})
+			});
+		};
+});

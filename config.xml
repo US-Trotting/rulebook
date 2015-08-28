@@ -3,7 +3,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id = "com.ustrotting.rulebook"
 	version = "2.0.0"
-	versionCode = "219">
+	versionCode = "220">
 	
 	<name>The U.S. Trotting Association Rule Book</name>
 	
@@ -17,6 +17,8 @@
 	<preference name="orientation" value="default" />
 	<preference name="target-device" value="universal" />
 	<preference name="permissions" value="none"/>
+	
+	<access uri="*" subdomains="true" />
 	
 	<!-- Icon -->
 	<icon src="icon.png" />

@@ -16,16 +16,20 @@ $(document).on("pageinit", "[data-role='page'].page", function(){
 		next = $( this ).jqmData( "next" ),
 		// Get the filename of the previous page that we stored in the data-prev attribute
 		prev = $( this ).jqmData( "prev" );
+	
+	var alertStr = page.toString() + ' ' + next.toString() + ' ' + prev.toString();
 
-		if(next){
-			$(page).on("swipeleft", function(){
-				$.mobile.changePage( next + '.html', {transition: "slide"})
-			});
-		};
+	if(next){
+		$(page).on("swipeleft", function(){
+			$.mobile.changePage( next + '.html', {transition: "slide"});
+		});
+	};
 
-		if(prev){
-			$(page).on("swiperight", function(){
-				$.mobile.changePage( prev + '.html', {transition: "slide", reverse: true})
-			});
-		};
+	if(prev){
+		$(page).on("swiperight", function(){
+			$.mobile.changePage( prev + '.html', {transition: "slide", reverse: true});
+		});
+	};
+	
+	alert(alertStr);
 });

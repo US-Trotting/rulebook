@@ -6,10 +6,13 @@ $( document ).bind( "mobileinit", function() {
 	$.mobile.transitionFallbacks='none';
 });
 
-$("body").on("swipeleft", function() {
-	alert("swipeleft");
-});
-
-$("body").on("swiperight", function() {
-	alert("swiperight");
-});
+$(document).on("pagecreate", function(event) {
+	$(event.target).on("swipeleft", function() {
+		var nextPage = $(event.target).jqmData("next");
+		$("body").pagecontainer("change", nextPage + ".html", {transition: "slide"});
+	});
+	$(event.target).on("swiperight", function() {
+		var prevPage = $(event.target).jqmData("prev");
+		$("body").pagecontainer("change", prevPage + ".html", {transition: "slide", reverse: true});
+	});
+})

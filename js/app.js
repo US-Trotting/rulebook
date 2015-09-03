@@ -1,6 +1,6 @@
 (function($,undefined) {
 	
-	$( document ).on( "mobileinit", function() {
+	$( document ).bind( "mobileinit", function() {
 		$.mobile.allowCrossDomainPages = true;
 		$.mobile.defaultPageTransition = "none"; 
 		$.mobile.phonegapNavigationEnabled = true; 

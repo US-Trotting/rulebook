@@ -5,7 +5,10 @@
 	</div>
 	<!-- Content -->
 	<div data-role="content" id="search">
-		<ul data-filter="true" data-filter-placeholder="Search Rules/Bylaws" data-inset="true" data-role="listview" id="rules">
+		<form class="ui-filterable">
+			<input id="search-filter-input" data-type="search" placeholder="Search Rules/Bylaws"/>
+		</form>
+		<ul data-filter="true" data-input="#search-filter-input" data-inset="true" data-role="listview">
 			<!-- RULES -->
 			<li data-role="list-divider"><!-- <a href="rules/1.html"> -->1. MANDATE<!-- </a>--></li>
 			<li><a href="rules/1/01.html"><span class="no">1.01</span> <span class="name">General Provisions</span></a></li>

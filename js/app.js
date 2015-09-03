@@ -1,13 +1,6 @@
-(function($,undefined) {
-	
-	$( document ).bind( "mobileinit", function() {
-		$.mobile.allowCrossDomainPages = true;
-		$.mobile.defaultPageTransition = "none"; 
-		$.mobile.phonegapNavigationEnabled = true; 
-		$.mobile.pushStateEnabled = false; 
-		$.mobile.transitionFallbacks='none';
-	});
-	
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady() {
 	$( document ).on( "pagecreate", "[data-role='page'].page", function() {
 		// Get the filename of the next page that we stored in the data-next attribute
 		var	next = $(this).jqmData("next");
@@ -30,9 +23,12 @@
 			}
 		});
 	});
-	
-})(jQuery);
+};
 
-
-
-
+$( document ).bind( "mobileinit", function() {
+	$.mobile.allowCrossDomainPages = true;
+	$.mobile.defaultPageTransition = "none"; 
+	$.mobile.phonegapNavigationEnabled = true; 
+	$.mobile.pushStateEnabled = false; 
+	$.mobile.transitionFallbacks='none';
+});

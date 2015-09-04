@@ -7,16 +7,15 @@ $( document ).bind( "mobileinit", function() {
 });
 
 $(document).on("pagecreate", function(event) {
-	$(event.target).hammer().unbind("swipeleft");
-	$(event.target).hammer().unbind("swiperight");
+	var hammertime = Hammer(event.target);
 	
-	$(event.target).hammer().bind("swipeleft", function() {
-		var nextPage = $(event.target).jqmData("next");
-		$("body").pagecontainer("change", nextPage + ".html", {transition: "slide"});
+	hammertime.on("swipeleft", function(e) {
+		alert(event.target);
+		console.log(e.target);
 	});
 	
-	$(event.target).hammer().bind("swiperight", function() {
-		var prevPage = $(event.target).jqmData("prev");
-		$("body").pagecontainer("change", prevPage + ".html", {transition: "slide", reverse: true});
+	hammertime.on("swiperight", function(e) {
+		alert(event.target);
+		console.log(e.target);
 	});
-})
+});

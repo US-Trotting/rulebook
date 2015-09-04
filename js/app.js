@@ -10,12 +10,12 @@ $(document).on("pagecreate", function(event) {
 	var hammertime = Hammer(event.target);
 	
 	hammertime.on("swipeleft", function(e) {
-		alert(event.target);
-		console.log(e.target);
+		var nextPage = $(event.target).jqmData("next");
+		$(document).pagecontainer("change", nextPage + ".html", {transition: "slide"});
 	});
 	
 	hammertime.on("swiperight", function(e) {
-		alert(event.target);
-		console.log(e.target);
+		var prevPage = $(event.target).jqmData("prev");
+		$(document).pagecontainer("change", prevPage + ".html", {transition: "slide", reverse: true});
 	});
 });

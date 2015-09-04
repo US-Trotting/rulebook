@@ -7,11 +7,15 @@ $( document ).bind( "mobileinit", function() {
 });
 
 $(document).on("pagecreate", function(event) {
-	$(event.target).on("swipeleft", function() {
+	$(event.target).hammer().unbind("swipeleft");
+	$(event.target).hammer().unbind("swiperight");
+	
+	$(event.target).hammer().bind("swipeleft", function() {
 		var nextPage = $(event.target).jqmData("next");
 		$("body").pagecontainer("change", nextPage + ".html", {transition: "slide"});
 	});
-	$(event.target).on("swiperight", function() {
+	
+	$(event.target).hammer().bind("swiperight", function() {
 		var prevPage = $(event.target).jqmData("prev");
 		$("body").pagecontainer("change", prevPage + ".html", {transition: "slide", reverse: true});
 	});

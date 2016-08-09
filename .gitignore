@@ -45,3 +45,6 @@ Thumbs.db
 *settings.xml
 *.project
 *.settings/
+
+# Sublime Text Project property files
+#####################################

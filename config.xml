@@ -32,6 +32,7 @@
 		<splash src="res/splash/android/port-xxxhdpi.png" density="port-xxxhdpi"/>
 	</platform>
 	<platform name="ios">
+		<icon src="res/icon/ios/icon-1024.png" platform="ios" width="1024" height="1024" />
 		<!-- iPhone 6 / 6+ -->
 		<icon src="res/icon/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
 		<!-- iPhone / iPod Touch  -->

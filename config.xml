@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.ustrotting.rulebook" version = "2.2.7" versionCode = "227">
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.ustrotting.rulebook" version = "2.2.9" versionCode = "229">
 	<name>The U.S. Trotting Association Rule Book</name>
 	<description>The U.S. Trotting Association Rule Book Application.</description>
 	<author href="https://www.ustrotting.com" email="mobile.dev@ustrotting.com">U.S. Trotting Mobile Developer</author>
 	<content src="index.html"/>
 	<preference name="DisallowOverscroll" value="true"/>
-	<preference name="android-minSdkVersion" value="26"/>
+	<preference name="android-minSdkVersion" value="28"/>
 	<preference name="orientation" value="default" />
 	<preference name="target-device" value="universal" />
 	<preference name="permissions" value="none"/>

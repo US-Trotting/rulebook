@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.ustrotting.rulebook" version = "2.2.9" versionCode = "229">
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.ustrotting.rulebook" version = "2.3.0" versionCode = "230">
 	<name>The U.S. Trotting Association Rule Book</name>
 	<description>The U.S. Trotting Association Rule Book Application.</description>
 	<author href="https://www.ustrotting.com" email="mobile.dev@ustrotting.com">U.S. Trotting Mobile Developer</author>
